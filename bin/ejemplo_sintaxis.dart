@@ -84,8 +84,8 @@ mostrar_nombre_pantalla( {String? nombre, String apellidos = 'sanz',  required i
 
 // Clases ->
 class Animal {
-  String _nombre;
-  String _especie;
+  late String _nombre;
+  late String _especie;
 
   Animal(this._nombre, this._especie);
 
